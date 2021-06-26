@@ -1,0 +1,19 @@
+body {
+  /* background-color: blue; */
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+#main-header {
+  background-color: brown;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.text {
+  border: 1px solid blue;
+}
