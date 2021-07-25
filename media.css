@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav {
+  background-color: blueviolet;
+  height: 60px;
+}
+.side-menu {
+  background-color: lightblue;
+}
+
+.side-menu > li {
+  margin: 5px;
+  list-style-type: none;
+  width: 100%;
+  background-color: lightgreen;
+}
+.content {
+  background-color: orange;
+  height: 400px;
+}
+
+.a-side {
+  background-color: lightgreen;
+  height: 200px;
+}
+.footer {
+  background-color: blue;
+  height: 60px;
+}
+
+.container {
+    display: flex;
+  }
+  .side-menu {
+    width: 25%;
+  }
+  .content {
+    width: 50%;
+  }
+  .a-side {
+    width: 25%;
+    height: 400px;
+  }
+}

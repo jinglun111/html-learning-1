@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+}
+
+.border {
+  border: 1px solid red;
+}
+.announcement {
+  height: 74px;
+  line-height: 74px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+}
+.announcement-button {
+  background-color: #eb5757;
+  color: white;
+  padding: 8px;
+  margin-right: 16px;
+  border-radius: 15px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+  background-color: #eb5757;
+  color: white;
+}
+.nav {
+  display: flex;
+}
+.nav > li {
+  margin: 16px;
+  padding: 16px;
+  list-style-type: none;
+}
+
+.nav > li:hover {
+  background-color: black;
+  color: white;
+  transition-delay: 0.3s;
+  animation: reverse;
+}
+.panel {
+  height: 550px;
+  background-color: black;
+}
+.cards {
+  height: 753px;
+}
+
+.card-button {
+  background-color: #eb5757;
+  color: white;
+  padding: 8px;
+  margin-right: 16px;
+  border-radius: 15px;
+}
+.statements {
+  height: 550px;
+  background-color: black;
+}
+.shops {
+  height: 950px;
+}
+.testimonial {
+  height: 578px;
+}
+.footer {
+  height: 188px;
+}
